@@ -16,21 +16,21 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 print("=====Temprature Converter=====")
-print()
+
 print("  1. Convert from Celsius to Fahrenheit ")
 print("  2. Convert from Fahrenheit to Celsius")
-print()
+
 FFF = int(input(f'Please choose from the above menu: '))
 
 if FFF == 1: 
   cc = int(input(f'Enter a temperture to convert: '))
   jack = (cc * 9/5) + 32
-  print()
+
   print(f'{cc} degrees Celsius is {jack} Fahrenheit.')
 if FFF == 2:
   cc2 = int(input('Enter a temperture to convert: '))
   anna = (cc2 - 32) * 5/9
-  print()
+
   print(f'{cc2} degrees Farenheit is {anna} celsius.')
 
 
